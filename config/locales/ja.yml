@@ -1,0 +1,45 @@
+ja:
+    order_product:
+        priority:
+            normal: '通常'
+            high: '優先' 
+            top: '最優先'
+    activerecord:
+        attributes:
+            user:
+                corporate_name: '屋号'
+                lastname: '氏名（姓）'
+                firstname: '氏名（名）'
+                lastname_phonetic: 'フリガナ（姓）'
+                firstname_phonetic: 'フリガナ（名）'
+                email: 'メールアドレス'
+                phone: '電話番号'
+                password: 'パスワード'
+            postage:
+                item_type: '発送する商品'
+                company: '運送会社'
+                hokkaido: '北海道の送料'
+                touhoku: '東北の送料'
+                kitatouhoku: '北東北の送料'
+                minamitouhoku: '南東北の送料'
+                kantou: '関東の送料'
+                tokyo: '東京の送料'
+                hokuriku: '北陸の送料'
+                shinetsu: '信越の送料'
+                chubu: '中部の送料'
+                kansai: '関西の送料'
+                chugoku: '中国の送料'
+                shikoku: '四国の送料'
+                kyushu: '九州の送料'
+                kitakyushu: '北九州の送料'
+                minamikyushu: '南九州の送料'
+                okinawa: '沖縄の送料'
+            stock:
+                type: '出荷品目'
+                shipment_week: '出荷予定週'
+                quantity: '出荷予定数'
+                remark: '備考（出荷内容）'
+    will_paginate:
+        previous_label: "&#8592; 前のページ"
+        next_label: "次のページ &#8594;"
+        page_gap: "&hellip;"

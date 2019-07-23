@@ -1,0 +1,20 @@
+<a style="font-size: 500px">商品紹介</a>
+
+<table>
+    <thead>
+        <tr>
+            <th><span class="sp">品目</th>
+            <th>地域</th>
+            <th>説明</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% @items.each do |item| %>
+            <tr>
+                <td style="border: solid 1px black;"><%= item.item_name %></td>
+                <td style="border: solid 1px black;"><%= item.area %></td>
+                <td style="border: solid 1px black;"><%= item.description %></td>
+            </tr>
+        <% end %>
+    </tbody>
+</table>

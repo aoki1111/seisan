@@ -1,0 +1,10 @@
+@media screen and (min-width: 813px) {
+  .dashboard-order.danger {
+    border: solid 5px red;
+    background-color: #ffdbdb;
+  }
+  .dashboard-order.caution {
+    border: solid 5px #f9d400;
+    background-color: #fff0ae;
+  }
+}
